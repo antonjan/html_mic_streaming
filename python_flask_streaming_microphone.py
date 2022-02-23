@@ -32,7 +32,7 @@ audio = pyaudio.PyAudio()
 
 # start Recording
 stream = audio.open(format=FORMAT, channels=CHANNELS,
-    rate=RATE, input=True, input_device_index=1,
+    rate=RATE, input=True, input_device_index=0,
     frames_per_buffer=CHUNK)
 
 @app.after_request
