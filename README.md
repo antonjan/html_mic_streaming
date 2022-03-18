@@ -4,7 +4,7 @@ Reseving the stream using VLC
 
     using vlc  http://localhost:8888/out.mp3
 
-Transmitting the stream using VLC
+Transmitting the stream using VLC<br>
 Finding input device 
     
     arecord -l
